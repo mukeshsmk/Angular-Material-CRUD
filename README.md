@@ -17,8 +17,9 @@ npm install
 
 **3. I have used json server for api requests :-**
 
- npm install -g json-server
-
+```
+# npm install -g json-server
+```
  Start JSON Server
  
 ```
