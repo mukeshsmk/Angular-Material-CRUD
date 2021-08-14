@@ -1,27 +1,38 @@
-# SparkOut
+# Welcome to Angular App!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+## Installation :zap:
 
-## Development server
+**1. Download the file and running the following command :-**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ Goto to the below url and download the zip file
+```
+ https://github.com/mukeshsmk/Angular-Material-CRUD/tree/master
+```
 
-## Code scaffolding
+**2. Now install all the required packages by running the following commands :-**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+npm install
+```
 
-## Build
+**3. I have used json server for api requests :-**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
+ npm install -g json-server
 
-## Running unit tests
+ Start JSON Server
+ 
+```
+# json-server --watch db.json
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+**4. Now start the angular app by running the following command :-**
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+# npm run start
+```
 
-## Further help
+**5.** **🎉 Open your browser and go to `https://localhost:4200`**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🤩 Don't forget to give this repo a ⭐ if you like this repo and want to appreciate our efforts
