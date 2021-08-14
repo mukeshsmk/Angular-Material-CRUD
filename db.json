@@ -1,0 +1,52 @@
+{
+  "Student": [
+    {
+      "id": "100",
+      "firstName": "Mukesh",
+      "lastName": "kumar",
+      "email": "mukeshkumarsmk45@gmail.com",
+      "phone": "9688711770",
+      "age": "45"
+    },
+    {
+      "id": "101",
+      "firstName": "arjun",
+      "lastName": "s",
+      "email": "arjun@gmail.com",
+      "phone": "9879853423",
+      "age": "12"
+    },
+    {
+      "id": "102",
+      "firstName": "Ram",
+      "lastName": "kumar",
+      "email": "ramk@gmail.com",
+      "phone": "8748937405",
+      "age": "14"
+    },
+    {
+      "id": "103",
+      "firstName": "NIthish",
+      "lastName": "kumar",
+      "email": "nithish@yopmail.com",
+      "phone": "8750394524",
+      "age": "43"
+    },
+    {
+      "id": "104",
+      "firstName": "Abi",
+      "lastName": "S",
+      "email": "abinaya@yopmail.com",
+      "phone": "9863859603",
+      "age": "34"
+    },
+    {
+      "id": "105",
+      "firstName": "shanmuga",
+      "lastName": "samy",
+      "email": "shanmugasamy@yopmail.com",
+      "phone": "8949375349",
+      "age": "23"
+    }
+  ]
+}
