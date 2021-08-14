@@ -3,15 +3,9 @@
 
     <form class="mat-dialog-content" [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup)">
         <div class="form">
-            <!-- <mat-form-field color="accent">
-                <textarea matInput #input class="form-control" placeholder="Id" name="id" formControlName="id" required
-                    [disabled]=""></textarea>
-                <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
-            </mat-form-field> -->
-
             <mat-form-field class="example-full-width" appearance="fill">
-                <mat-label>Company (disabled)</mat-label>
-                <input matInput formControlName="id" [attr.disabled]="true">
+                <mat-label>Id</mat-label>
+                <input matInput formControlName="id" readonly>
             </mat-form-field>
         </div>
 
@@ -56,7 +50,7 @@
         </div>
 
         <div mat-dialog-actions>
-            <button mat-button type="submit" color="primary" [mat-dialog-close]="1">Save</button>
+            <button mat-button type="submit" color="primary" [disabled]="!formGroup.valid" [mat-dialog-close]="1">Save</button>
             <button mat-button (click)="close()" tabindex="-1">Cancel</button>
         </div>
     </form>
